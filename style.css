@@ -18,7 +18,7 @@ body{
 
 h1{
     position: absolute;
-    top:72px;
+    transform: translateY(-350px);
 }
 
 .note1{
@@ -103,6 +103,13 @@ input[type=number] {
 
 }
 
+.dados{
+    border-radius: 0;
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: 3px dashed black;
+}
 
 #button{
     background-color: #c1858f;
@@ -110,6 +117,7 @@ input[type=number] {
     height: 43px;
     margin-left: 100px;
     transition: .4s ease;
+    transform: translateY(-40px);
 }
 
 #button:hover{
@@ -118,6 +126,6 @@ input[type=number] {
 
 #resultado{
     position: absolute;
-    bottom: 78px;
+    transform: translateY(350px);    
     font-size: 32px;
 }
